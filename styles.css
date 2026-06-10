@@ -34,20 +34,20 @@
 }
 .tw-widget-top > * { pointer-events: none; }
 
-.tw-widget-btn {
+.tw-widget-btn.tw-widget-btn {
 	pointer-events: all;
-	box-shadow: none !important;
-	outline: none !important;
-	border: none !important;
-	background-color: var(--background-secondary) !important;
+	box-shadow: none;
+	outline: none;
+	border: none;
+	background-color: var(--background-secondary);
 	--icon-size: var(--icon-xs);
 	padding: 2px;
 	width: 22px;
 	height: 22px;
 }
-.tw-widget-btn:hover {
-	background-color: var(--background-modifier-hover) !important;
-	color: var(--text-normal) !important;
+.tw-widget-btn.tw-widget-btn:hover {
+	background-color: var(--background-modifier-hover);
+	color: var(--text-normal);
 }
 
 /* Timer */
@@ -122,22 +122,22 @@
 	margin-top: 4px;
 }
 
-.tw-button {
-	background-color: var(--background-secondary) !important;
-	border: 1px solid var(--background-modifier-border) !important;
+.tw-button.tw-button {
+	background-color: var(--background-secondary);
+	border: 1px solid var(--background-modifier-border);
 	border-radius: 4px;
 	padding: 2px 6px;
 	cursor: pointer;
 }
-.tw-button:hover {
-	background-color: var(--interactive-accent) !important;
-	color: var(--text-on-accent) !important;
+.tw-button.tw-button:hover {
+	background-color: var(--interactive-accent);
+	color: var(--text-on-accent);
 }
 
-.tw-input {
-	width: 40px !important;
-	background-color: var(--background-primary) !important;
-	border: 1px solid var(--background-modifier-border) !important;
+.tw-input.tw-input {
+	width: 40px;
+	background-color: var(--background-primary);
+	border: 1px solid var(--background-modifier-border);
 	border-radius: 4px;
 	text-align: center;
 	color: var(--text-normal);
